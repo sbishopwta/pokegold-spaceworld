@@ -76,15 +76,15 @@ DisplayStartMenu:
 	dw .Strings
 
 .Strings:
-	db "ずかん@"
-	db "ポケモン@"
-	db "りュック@"
+	db "Pokedex@"
+	db "Party@"
+	db "Backpack@"
 	db "<PLAYER>@"
-	db "レポート@"
-	db "せってい@"
-	db "とじる@"
-	db "わくせん@"
-	db "りセット@"
+	db "Save@"
+	db "Settings@"
+	db "Exit@"
+	db "SetFrame@"
+	db "Reset@"
 
 StartMenuJumpTable:
 	dw StartMenu_Pokedex
