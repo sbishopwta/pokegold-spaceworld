@@ -366,19 +366,25 @@ DemoItemList::
 	db $FF
 
 DemoPlayerName::
-	db "サトシ@"
+	db "Steven@"
 
 DemoRivalName::
-	db "シゲル@"
+	db "Oliver@"
 
 OakSpeechDemo::
-	text "ようこそ"
-	line "ポケット　モンスターの　せかいへ！"
-	cont "ごぞんじ　わしが　オーキドじゃ！"
+	;text "Welcome... to the world"
+	;line "to the world"
+	;cont "of Pokemon"
+	;cont "As you may"
+	;cont "know, I am"
+	;cont "Prof. Oak!"
+	text "Welcome to"
+	line "the world of"
+	cont "Pokemon As"
 
-	para "きょう　きみに　きてもらったのは"
-	line "ほかでもない"
-	cont "あたらしい　ずかんづくりを"
+	para "you may know"
+	line "I am"
+	cont "Prof. Oak"
 	cont "てつだって　ほしいのじゃ！"
 
 	para "もちろん"
