@@ -1458,7 +1458,7 @@ wPartyMonOT::
 wPartyMonOTEnd::
 
 wPartyMonNicknames::
-	ds PARTY_LENGTH * MON_NAME_LENGTH ; = $24
+	ds PARTY_LENGTH * 6 ; = $24
 wPartyMonNicknamesEnd::
 
 wPokedexOwned::
