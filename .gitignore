@@ -1,5 +1,5 @@
 # ROM
-*.gb
+
 *.sgb
 *.gbc
 *.sym
