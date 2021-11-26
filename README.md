@@ -4,11 +4,16 @@ This is a work-in-progress disassembly of the Pokémon Gold and Pokémon Silver 
 
 It builds the following ROMs:
 
-- Gold_debug.sgb `sha1: b1d7539a87dea81b2cff6146afaad64470d08d84`
-- Gold_debug.sgb (correct header) `sha1: 87fd8dbe5db39619529abcfc99e74cc5ecb8b94e`
+- pokegold-spaceworld-correctheader.gb
+- pokegold-spaceworld.gb
 
-You will need to provide a copy of Gold_debug.sgb renamed **baserom.gb** to build the ROMs.
+You will need to provide a copy of the Pokémon Gold - Spaceworld 1997 Demo (Debug).sgb renamed **baserom.gb** to build the ROMs.
+You can get the debug rom [here][romlink]
 
+When building on macOS, make sure to install the latest version of make from homebrew.
+When building the Makefile, use `gmake` instead of `make`.
+
+Currently, there's an issue when compiling a map during the first compilation. However, if you run `gmake` a second time, the ROM should compile.
 
 ## See also
 
@@ -27,6 +32,7 @@ Other disassembly projects:
 - [**Pokémon FireRed**][pokefirered]
 - [**Pokémon Emerald**][pokeemerald]
 
+[romlink]: https://tcrf.net/Proto:Pokémon_Gold_and_Silver/Spaceworld_1997_Demo
 [pokered]: https://github.com/pret/pokered
 [pokeyellow]: https://github.com/pret/pokeyellow
 [pokegold]: https://github.com/pret/pokegold
